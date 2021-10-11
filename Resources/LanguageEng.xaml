@@ -1,0 +1,63 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+    <system:String x:Key="LanguageGameName">MASTERMIND</system:String>
+    
+    <system:String x:Key="LanguageGuide">Guide how to play Mastermind</system:String>
+    <system:String x:Key="LanguageAboutAppToolTip">About app</system:String>
+
+    <system:String x:Key="LanguageButtonBack">Back</system:String>
+
+    
+    <system:String x:Key="LanguageNewGame">New game</system:String>
+    <system:String x:Key="LanguageRestartGame">Restart</system:String>
+    <system:String x:Key="LanguageSettings">Settings</system:String>
+    <system:String x:Key="LanguageSettingsFields">Count of fields</system:String>
+    <system:String x:Key="LanguageSettingsColors">Count of colors</system:String>
+    <system:String x:Key="LanguageSettingsAnother">Repeating and empty</system:String>
+    <system:String x:Key="LanguageSettingsRepeatingColor">Repeating color</system:String>
+    <system:String x:Key="LanguageSettingsEmptyFigure">Empty figure</system:String>
+    <system:String x:Key="LanguageTooltipSettings">Settings</system:String>
+    <system:String x:Key="LanguageSettingsCryptoMode">Crypto mode</system:String>
+    <system:String x:Key="LanguageSettingsCryptoModeTooltip">Switch figures into images of cryptocurencies</system:String>
+    <system:String x:Key="LanguageSettingsPathToFileStatisticsHeader">Path to file statiscs</system:String>
+    <system:String x:Key="LanguageSettingsPathToFileStatisticsLabel">Path</system:String>
+    <system:String x:Key="LanguageSettingsPathFileStatisticsInfo">File with statistics is in the same path as application. You can change the path.</system:String>
+    <system:String x:Key="LanguageSettingsCryptoInfo">For the information about Bitcoin recommend Bitcoinovej kanal on youtube (only in CZ)</system:String>
+    <system:String x:Key="LanguageSettingsFillAllLineLabel">Fill all line of figures</system:String>
+    <system:String x:Key="LanguageSettingsFillAllLineHeader">Game line</system:String>
+
+    <system:String x:Key="LanguageFillAllLineMessage">You need to fill all line! Fill the line and repeat the evaluated.</system:String>
+
+    <system:String x:Key="LanguageTooltipUserFigure">Hide/Unhide figure</system:String>
+
+    <system:String x:Key="LanguageSoundOn">Sound</system:String>
+    <system:String x:Key="LanguageTooltipEvaluated">Evaluated</system:String>
+
+    <system:String x:Key="LanguageStatistics">Statistics</system:String>
+    <system:String x:Key="LanguageStatisticsDate">Date</system:String>
+    <system:String x:Key="LanguageStatisticsPlayer">Player</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfFields">Number of fields</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfColors">Number of colors</system:String>
+    <system:String x:Key="LanguageStatisticsIsRepeatColor">Repeat color</system:String>
+    <system:String x:Key="LanguageStatisticsIsEmptyFigure">Empty figure</system:String>
+    <system:String x:Key="LanguageStatisticsElapsedTime">Elapsed time</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfMoves">Number of moves</system:String>
+    <system:String x:Key="LanguageStatisticsCodeBroken">Code broken</system:String>
+    <system:String x:Key="LanguageStatisticsSolved">Solved</system:String>
+    <system:String x:Key="LanguageStatisticsIsRepeatColorToolTip">Color can repeat in code</system:String>
+    <system:String x:Key="LanguageStatisticsIsEmptyFigureToolTip">Empty figure in code</system:String>
+    <system:String x:Key="LanguageStatisticsSetupGameToolTip">Detail of setup game</system:String>
+    <system:String x:Key="LanguageStatisticsTheBestTimeToolTip">The best time for broken code</system:String>
+    <system:String x:Key="LanguageStatisticsMinMovesToolTip">Minimum number of moves to broken code</system:String>
+    
+
+    <system:String x:Key="LanguageWindowPlayerName">Name</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameOkToolTip">Save the name</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameDefaultToolTip">Default name - Player</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameSelectPlayerToolTip">Select name</system:String>
+
+
+</ResourceDictionary>
+    

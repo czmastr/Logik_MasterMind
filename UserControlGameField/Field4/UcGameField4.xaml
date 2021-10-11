@@ -1,0 +1,104 @@
+﻿<UserControl x:Class="Logik.UserControlGameField.Field4.UcGameField4"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.UserControlGameField.Field4"
+             xmlns:con="clr-namespace:Logik.Convertors"
+             mc:Ignorable="d" 
+             d:DesignHeight="809" d:DesignWidth="398">
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <con:NumberToColor x:Key="NumberToColor"></con:NumberToColor>
+        </ResourceDictionary>
+        
+        
+    </UserControl.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="55"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition> <!--12-->
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="30"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        
+        <Grid Grid.Row="0" Grid.Column="1"> 
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <ContentControl x:Name="ccBase" Grid.Column="0"  Grid.Row="0" Content="{Binding}"></ContentControl>
+
+            <TextBlock Text="LOGIK" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="Gray" FontWeight="ExtraBold"></TextBlock>
+
+        </Grid>
+        
+        <Border Grid.Row="1" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1"></Border>
+
+        <!--10-->
+        <Label Grid.Row="2" Grid.Column="0" Content="10" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc10" Grid.Row="2" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--9-->
+        <Label Grid.Row="3" Grid.Column="0" Content="9" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc09" Grid.Row="3" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--8-->
+        <Label Grid.Row="4" Grid.Column="0" Content="8" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc08" Grid.Row="4" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--7-->
+        <Label Grid.Row="5" Grid.Column="0" Content="7" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc07" Grid.Row="5" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--6-->
+        <Label Grid.Row="6" Grid.Column="0" Content="6" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc06" Grid.Row="6" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--5-->
+        <Label Grid.Row="7" Grid.Column="0" Content="5" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc05" Grid.Row="7" Grid.Column="1" Content="{Binding}"></ContentControl> 
+        
+        <!--4-->
+        <Label Grid.Row="8" Grid.Column="0" Content="4" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc04" Grid.Row="8" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--3-->
+        <Label Grid.Row="9" Grid.Column="0" Content="3" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc03" Grid.Row="9" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--2-->
+        <Label Grid.Row="10" Grid.Column="0" Content="2" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc02" Grid.Row="10" Grid.Column="1" Content="{Binding}"></ContentControl>
+        
+        <!--1-->
+        <Label Grid.Row="11" Grid.Column="0" Content="1" Style="{StaticResource labelOfLine}"></Label>
+        <ContentControl x:Name="cc01" Grid.Row="11" Grid.Column="1" Content="{Binding}"></ContentControl>
+
+
+        <Border Grid.Row="12" Grid.ColumnSpan="2" BorderBrush="Black" BorderThickness="1"></Border>
+
+        <!--user choose figure-->
+        <ContentControl x:Name="ccUser" Grid.Row="13" Grid.Column="0" Grid.ColumnSpan="2" Content="{Binding}"></ContentControl>
+
+    </Grid>
+</UserControl>

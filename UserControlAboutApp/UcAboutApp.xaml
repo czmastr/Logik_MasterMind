@@ -1,0 +1,77 @@
+﻿<UserControl x:Class="Logik.UserControlAboutApp.UcAboutApp"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.UserControlAboutApp"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="398">
+    <Grid Margin="1">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <FlowDocumentPageViewer Grid.Row="0">
+            <FlowDocument>
+                
+                <!--About APP-->
+                <Section>
+                    <Paragraph FontSize="18">
+                        Autor/Author - czmastr
+                        <LineBreak></LineBreak>
+                        <Hyperlink FontSize="14" RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://github.com/czmastr/Logik_MasterMind.git">czmastr/Logik_MasterMind.github</Hyperlink>
+                    </Paragraph>
+
+                    <Paragraph FontSize="16">
+                        Verze/Version 0.9.0
+                    </Paragraph>
+                </Section>
+
+                <!--SOURCES-->
+                <Section FontSize="12">
+                    <Paragraph>
+                        Zdroje/Source:
+                        <LineBreak></LineBreak>
+                        <!--Použité ikony obrázků jsou FREE verze z-->
+                        <Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://www.iconfinder.com">www.iconfinder.com</Hyperlink>
+                    </Paragraph>
+                </Section>
+
+                <Section FontSize="16">
+                    <Paragraph>
+                        DONATE:                                          
+                    </Paragraph>
+
+                    <Paragraph>
+                        BTC:
+                        <Bold>bc1qqry3fmtt0mq4x8fawnmu4ag0cr4l96dyal7whg</Bold>
+                        <LineBreak></LineBreak>
+                        <Image Source="..\Images\btcAddress_3.png" Width="60" Height="60" HorizontalAlignment="Center"></Image>
+                    </Paragraph>
+
+                    <Paragraph>
+                        ETH:
+                        <Bold>0x8f5E8F954668A7212d76fDb427f55C72D6A596D0</Bold>
+                        <LineBreak></LineBreak>
+                        <Image Source="..\Images\ethAddress.png" Width="60" Height="60" HorizontalAlignment="Center"></Image>
+                    </Paragraph>
+
+                    <Paragraph>
+                        LTC:
+                        <Bold>ltc1qr6nwjutcfk4t0f38adcxjmnc0hqnzqe34hk3n6</Bold>
+                        <LineBreak></LineBreak>
+                        <Image Source="..\Images\ltcAddress_1.png" Width="60" Height="60" HorizontalAlignment="Center"></Image>
+                    </Paragraph>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="0.5"></Border>
+
+        <Button x:Name="btnAboutAppBack" Grid.Row="2" Content="{DynamicResource LanguageButtonBack}" Click="btnAboutAppBack_Click" Margin="3" Height="25" Style="{DynamicResource btnBack}"></Button>
+
+    </Grid>
+</UserControl>

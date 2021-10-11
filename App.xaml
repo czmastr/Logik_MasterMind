@@ -1,0 +1,173 @@
+﻿<Application x:Class="Logik.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Logik"
+             xmlns:cc="clr-namespace:Logik.Convertors"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <!--<cc:NumberToColor x:Key="NumberToColor"></cc:NumberToColor>-->
+            
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Logik;component/Resources/LanguageCz.xaml"></ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
+
+            <!--label of line-->
+            <Style TargetType="{x:Type Label}" x:Key="labelOfLine">
+                <Setter Property="FontSize" Value="14"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="Foreground" Value="Red"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+
+            <Style TargetType="{x:Type Label}" x:Key="labelCryptoMode">                
+                <Setter Property="Content" Value="# HODL BTC"></Setter>
+                <Setter Property="FontSize" Value="35"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="Foreground" Value="Gold"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+            </Style>
+            
+
+            <!--Elipse as figure-->
+            <Style TargetType="Ellipse" x:Key="Figures">
+                <Setter Property="Width" Value="30"></Setter>
+                <Setter Property="Height" Value="30"></Setter>
+                <Setter Property="Stroke" Value="Black"></Setter>
+                <Setter Property="StrokeThickness" Value="0.5"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+
+            <Style TargetType="Ellipse" x:Key="EllipseEvaluated">
+                <Setter Property="Width" Value="10"></Setter>
+                <Setter Property="Height" Value="10"></Setter>
+                <Setter Property="Stroke" Value="Black"></Setter>
+                <Setter Property="StrokeThickness" Value="0.5"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+            </Style>
+
+            <!--Textblock of ellipse figures--> 
+            <Style TargetType="TextBlock" x:Key="FigureTextBlock">
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="Text" Value="{x:Null}"></Setter>
+                <Setter Property="Foreground" Value="{x:Null}"></Setter>
+                <Setter Property="Height" Value="30"></Setter>
+                <Setter Property="Width" Value="30"></Setter>
+            </Style>
+
+
+            <Style TargetType="{x:Type Button}" x:Key="btnControlledGame">
+                <Setter Property="Background" Value="DarkGreen"></Setter>
+                <Setter Property="Foreground" Value="White"></Setter>
+                <Setter Property="BorderBrush" Value="{x:Null}"></Setter>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Grid>
+                                <Ellipse>
+                                    <Ellipse.Style>
+                                        <Style TargetType="{x:Type Ellipse}">
+                                            <Setter Property="Fill" Value="{Binding ElementName=tb, Path={TemplateBinding}}"></Setter>
+                                        </Style>
+                                    </Ellipse.Style>
+                                </Ellipse>
+                                <TextBlock x:Name="tb"></TextBlock>
+                            </Grid>
+                            
+                            <!--<Grid Grid.Row="0" Grid.Column="0">
+                                <Ellipse Fill="{Binding ElementName=tb0, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>
+                                <TextBlock x:Name="tb0" AllowDrop="True" DragEnter="tb_DragEnter" Drop="tb_Drop" MouseMove="tb_MouseMove" MouseLeftButtonDown="tb_MouseLeftButtonDown"></TextBlock>
+                            </Grid>
+
+                            <Grid>
+                                <Ellipse Fill="{Binding ElementName=tb, Path=Text, Converter={StaticResource NumberToColor}}">
+                                    <Ellipse.Stroke>black</Ellipse.Stroke>
+                                    <Ellipse.StrokeThickness>0.5</Ellipse.StrokeThickness>
+                                </Ellipse>
+                                <TextBlock x:Name="tb" Text="{TemplateBinding Property=Name}"></TextBlock>
+                            </Grid>-->
+
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+                
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="Green"></Setter>
+                        <Setter Property="FontWeight" Value="Bold"></Setter>
+                        <Setter Property="Opacity" Value="0.75"></Setter>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+
+            <Style TargetType="{x:Type Button}" x:Key="btnCircular">
+                <!--<Setter Property="Background" Value="{Binding}">-->
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border CornerRadius="25" Background="{TemplateBinding Background}"></Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>                
+            </Style>
+
+            <!--BACK BUTTON-->
+            <Style TargetType="{x:Type Button}" x:Key="btnBack">
+                <Setter Property="Width" Value="350"></Setter>
+                <Setter Property="Height" Value="25"></Setter>
+                <Setter Property="Margin" Value="2"></Setter>
+                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="FontWeight" Value="Bold"></Setter>
+                <Setter Property="FontSize" Value="14"></Setter>
+                
+                <Setter Property="Background">
+                    <Setter.Value>
+                        <SolidColorBrush Color="LightGreen"></SolidColorBrush>
+                    </Setter.Value>
+                </Setter>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Button}">
+                            <Border x:Name="border"
+                                    SnapsToDevicePixels="True"
+                                    BorderThickness="1"
+                                    BorderBrush="Gray"
+                                    CornerRadius="5"
+                                    Background="{TemplateBinding Background}">
+                                <Grid>
+                                    <ContentPresenter
+                                        Margin="2"
+                                        HorizontalAlignment="Center"
+                                        VerticalAlignment="Center"
+                                        RecognizesAccessKey="True"
+                                        ></ContentPresenter>
+                                </Grid>
+                                
+                            </Border>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="Green"></Setter>
+                    </Trigger>
+                </Style.Triggers>
+                
+                
+            </Style>
+            
+            
+
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

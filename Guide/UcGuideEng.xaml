@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="Logik.Guide.UcGuideEng"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.Guide"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="398">
+    <Grid>
+        <FlowDocumentPageViewer x:Name="fdsv">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontSize="45">MASTERMIND</Run>
+                </Paragraph>
+
+                <!--HOW TO PLAY-->
+                <Section>
+                    <Paragraph FontSize="25">
+                        <TextBlock><Bold>How to play Mastermind</Bold></TextBlock>
+                    </Paragraph>
+
+                    <Paragraph FontSize="18">
+                        <TextBlock TextWrapping="Wrap">
+                            The game is from 1974. The goal of game is broken code.
+                            <LineBreak></LineBreak>
+                            
+                            The player fill the game field by color figure from bottom part into field 1-10. The first field is the beginning
+                            After check <Italic>evaluated</Italic> is evaluted line and lock it.                            
+                            <LineBreak></LineBreak>
+                            Evaluated:
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <Image Source="..\Images\lineEvaluatedCodeEng.png" Width="350" HorizontalAlignment="Center"></Image>
+                    </Paragraph>
+
+                    <List>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">Empty - any match (color either position)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">White - color match (some figure)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">Black - color and position match (some figure)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                    </List>
+
+                    <Paragraph FontSize="20">
+                        <TextBlock TextWrapping="Wrap">
+                            The order of evaluation does not agree with the positions of the colors in the field. It's just information that some color is in position.
+                        </TextBlock>
+                    </Paragraph>
+
+
+                </Section>
+
+                <!--INFO ABOUT CONTROL GAME-->
+                <Section FontSize="16">
+                    <Paragraph FontSize="30">
+                        <TextBlock><Bold>Game control</Bold></TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            You start the game with the new game button. After (un)solving the code, the name of the code solver is written.                            
+                            <LineBreak></LineBreak>
+                            Can be entered:
+                        </TextBlock>
+                    </Paragraph>
+
+                    <List>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock> - write</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock>- choose from the list</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock>- button DEF (default name Player)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                    </List>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Can be turn on/off sound.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            In the game settings you can set the number of fields, the number of colors, etc.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                           By default, the game is set to fill a whole row (3, 4, 5 figures). Can be turned off.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Furthermore, the statistics show the success of solving games, the best time and the minimum number of moves to solve the cipher according to the player.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            The game is in CZ / ENG.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            About application - info
+                        </TextBlock>
+                    </Paragraph>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+    </Grid>
+</UserControl>

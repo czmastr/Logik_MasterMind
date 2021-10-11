@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Statistics>
+  <PathToXmlStatisticsFile>E:\ProgramyCSharp\Logik\Logik\Logik\bin\Release\LogikStatistics.xml</PathToXmlStatisticsFile>
+  <Games>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:01</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:08:30</ElapsedTime>
+      <NumberOfMoves>9</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:58</ElapsedTime>
+      <NumberOfMoves>9</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:59</ElapsedTime>
+      <NumberOfMoves>8</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:08</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:57</ElapsedTime>
+      <NumberOfMoves>9</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:08:00</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:04:21</ElapsedTime>
+      <NumberOfMoves>8</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:19</ElapsedTime>
+      <NumberOfMoves>7</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:01:32</ElapsedTime>
+      <NumberOfMoves>5</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:01:33</ElapsedTime>
+      <NumberOfMoves>6</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:13</ElapsedTime>
+      <NumberOfMoves>7</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:00</ElapsedTime>
+      <NumberOfMoves>6</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>13.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:04:53</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>14.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:01:29</ElapsedTime>
+      <NumberOfMoves>6</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>17.2.2021 0:00:00</Date>
+      <Player>Libor</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:12:27</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>20.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:01</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>20.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:08:04</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>22.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:22</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>22.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>4</NumberOfFields>
+      <NumberOfColors>6</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:14</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>22.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:09:46</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>22.2.2021 0:00:00</Date>
+      <Player>Katerina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:05:18</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>23.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:01:35</ElapsedTime>
+      <NumberOfMoves>7</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>23.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:35</ElapsedTime>
+      <NumberOfMoves>8</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>23.2.2021 0:00:00</Date>
+      <Player>Kateřina</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:02:56</ElapsedTime>
+      <NumberOfMoves>8</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+  </Games>
+</Statistics>

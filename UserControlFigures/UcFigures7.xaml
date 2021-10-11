@@ -1,0 +1,164 @@
+﻿<UserControl x:Class="Logik.UserControlFigures.UcFigures7"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.UserControlFigures"               
+             xmlns:con="clr-namespace:Logik.Convertors"   
+             mc:Ignorable="d" >
+    <!--d:DesignHeight="450" d:DesignWidth="800">-->
+
+    <UserControl.Resources>
+        <ResourceDictionary>
+            <con:NumberToColor x:Key="NumberToColor"></con:NumberToColor>
+            <con:NumberToColorEvaluated x:Key="NumberToColorEvaluated"></con:NumberToColorEvaluated>
+
+            <Style TargetType="{x:Type CheckBox}">
+                <Setter Property="HorizontalAlignment" Value="Center"></Setter>
+                <Setter Property="VerticalAlignment" Value="Bottom"></Setter>
+                <Setter Property="Margin" Value="0,55,0,5"></Setter>
+                <Setter Property="ToolTip" Value="{DynamicResource LanguageTooltipUserFigure}"></Setter>
+            </Style>
+            
+        </ResourceDictionary>
+    </UserControl.Resources>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Column="0">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser1, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure0">
+                <!--<Grid.Style>
+                    <Style TargetType="{x:Type Grid}">
+                        <Setter Property="Visibility" Value="Visible"></Setter>
+                        <Style.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Binding="{Binding ElementName=chbHide0, Path=IsChecked}" Value="true"></Condition>
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Visibility" Value="Collapsed"></Setter>
+                            </MultiTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Style>-->
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser0, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser0" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+                
+            </Grid>
+            
+            <CheckBox x:Name="chbHide0" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="1">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser1, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure1">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser1, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser1" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+            
+            <CheckBox x:Name="chbHide1" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="2">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser2, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure2">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser2, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser2" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+
+            <CheckBox x:Name="chbHide2" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="3">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser3, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure3">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser3, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser3" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+
+            <CheckBox x:Name="chbHide3" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="4">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser4, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure4">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser4, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser4" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+
+            <CheckBox x:Name="chbHide4" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="5">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser5, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure5">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser5, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser5" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+
+            <CheckBox x:Name="chbHide5" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+
+        <Grid Grid.Column="6">
+            <!--<Ellipse Fill="{Binding ElementName=tbUser6, Path=Text, Converter={StaticResource NumberToColor}}"></Ellipse>-->
+            <Grid x:Name="gridFigure6">
+                <Ellipse>
+                    <Ellipse.Style>
+                        <Style TargetType="{x:Type Ellipse}" BasedOn="{StaticResource Figures}">
+                            <Setter Property="Fill" Value="{Binding ElementName=tbUser6, Path=Text, Converter={StaticResource NumberToColor}}"></Setter>
+                        </Style>
+                    </Ellipse.Style>
+                </Ellipse>
+                <TextBlock x:Name="tbUser6" MouseMove="tbUser_MouseMove" MouseLeftButtonDown="tbUser_MouseLeftButtonDown" Style="{StaticResource FigureTextBlock}"></TextBlock>
+            </Grid>
+
+            <CheckBox x:Name="chbHide6" IsChecked="False" Checked="chbHide_Checked" Unchecked="chbHide_Unchecked"></CheckBox>
+        </Grid>
+    </Grid>
+</UserControl>

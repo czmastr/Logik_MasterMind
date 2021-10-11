@@ -1,0 +1,138 @@
+﻿<UserControl x:Class="Logik.Guide.UcGuideCz"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.Guide"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="398">
+    <Grid>
+        <FlowDocumentPageViewer x:Name="fdsv">
+            <FlowDocument>
+                <Paragraph>
+                    <Run FontSize="60">LOGIK</Run>
+                </Paragraph>
+
+                <!--HOW TO PLAY-->
+                <Section>
+                    <Paragraph FontSize="30">
+                        <TextBlock><Bold>Jak hrát hru LOGIK</Bold></TextBlock>
+                    </Paragraph>
+
+                    <Paragraph FontSize="20">
+                        <TextBlock TextWrapping="Wrap">
+                            Hra je z roku 1971. Cílem hry je rozluštit šifru.
+                            <LineBreak></LineBreak>
+                            
+                            Hráč postupně vyplňuje hrací pole barvami ze spodní části (přetahuje) do pole 1 - 10, s tím, že pole 1 je začátek.
+                            Po zaškrtnutí <Italic>vyhodnotit</Italic> dojde k vyhodnocení tahu a tento řádek se zamkne.
+                            <LineBreak></LineBreak>
+                            Vyhodnocení je:
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <Image Source="..\Images\lineEvaluatedCodeCz.png" Width="350" HorizontalAlignment="Center"></Image>
+                    </Paragraph>
+                    
+                    <List>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">Prázdné - žádná shoda (barva ani pozice)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">Bílá - shoda barvy (některé figurky)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock TextWrapping="Wrap">Černá - shoda barvy a pozice (některé figurky)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                    </List>
+
+                    <Paragraph FontSize="20">
+                        <TextBlock TextWrapping="Wrap">
+                            Pořadí vyhodnocení nesouhlasí s pozicemi barev v poli. Je to pouze informace, že některá barva je na pozici.
+                        </TextBlock>
+                    </Paragraph>
+
+
+                </Section>
+
+                <!--INFO ABOUT CONTROL GAME-->
+                <Section FontSize="16">
+                    <Paragraph FontSize="30">
+                        <TextBlock><Bold>Ovládání hry</Bold></TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Hru spustíte tlačítkem nová hra. Po (ne)vyřešení šifry se zapíše jméno řešitele šifry. 
+                            <LineBreak></LineBreak>
+                            Lze zadat:
+                        </TextBlock>
+                    </Paragraph>
+                    
+                    <List>
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock> - vypsat</TextBlock>
+                            </Paragraph>                                
+                        </ListItem>
+                            
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock>- vybrat ze seznamu</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                            
+                        <ListItem>
+                            <Paragraph>
+                                <TextBlock>- tlačítko DEF (bude vepsáno jméno Player)</TextBlock>
+                            </Paragraph>
+                        </ListItem>
+                     </List>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Lze vypnout nebo zapnout zvuk.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            V nastavení hry lze nastavit počet polí, počet barev atd.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Hra má defaultně nastaveno, že je nutné vyplňovat celou řadu (3, 4, 5 figurek). Lze vypnout.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Dále ve statistikách je vidět úspěšnost řešení her, nejlepší čas a min počet tahů pro vyřešení šifry dle hráče.
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            Hra je v CZ / ENG. 
+                        </TextBlock>
+                    </Paragraph>
+
+                    <Paragraph>
+                        <TextBlock TextWrapping="Wrap">
+                            O aplikaci - info
+                        </TextBlock>
+                    </Paragraph>
+                </Section>
+            </FlowDocument>
+        </FlowDocumentPageViewer>    
+    </Grid>
+</UserControl>

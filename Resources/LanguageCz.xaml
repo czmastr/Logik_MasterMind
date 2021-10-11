@@ -1,0 +1,64 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib"
+                    xmlns:local="clr-namespace:Logik.Resources">
+
+    <system:String x:Key="LanguageGameName">LOGIK</system:String>
+    
+    <system:String x:Key="LanguageGuide">Průvodce jak hrát Logik</system:String>
+    <system:String x:Key="LanguageAboutAppToolTip">O aplikaci</system:String>
+
+    <system:String x:Key="LanguageButtonBack">Zpět</system:String>
+
+    <system:String x:Key="LanguageNewGame">Nová hra</system:String>
+    <system:String x:Key="LanguageRestartGame">Restart</system:String>
+    <system:String x:Key="LanguageSettings">Nastavení</system:String>
+    <system:String x:Key="LanguageSettingsFields">Počet polí</system:String>
+    <system:String x:Key="LanguageSettingsColors">Počet barev</system:String>
+    <system:String x:Key="LanguageSettingsAnother">Opakovat barvu a vynechávat prázdné</system:String>
+    <system:String x:Key="LanguageSettingsRepeatingColor">Opakovat barvu</system:String>
+    <system:String x:Key="LanguageSettingsEmptyFigure">Hrát s prázdným polem</system:String>
+    <system:String x:Key="LanguageSettingsCryptoMode">Krypto mod</system:String>
+    <system:String x:Key="LanguageSettingsCryptoModeTooltip">Změní figurky v obrázky kryptoměn</system:String>
+    <system:String x:Key="LanguageTooltipSettings">Nastavení</system:String>
+    <system:String x:Key="LanguageSettingsPathToFileStatisticsHeader">Cesta k souboru o statistikách</system:String>
+    <system:String x:Key="LanguageSettingsPathToFileStatisticsLabel">Cesta</system:String>
+    <system:String x:Key="LanguageSettingsPathFileStatisticsInfo">Soubor je ukládán do složky, kde je aplikace. Cestu můžete změnit.</system:String>
+    <system:String x:Key="LanguageSettingsCryptoInfo">Pro informace o Bitcoinu doporučuji v CZ Bitcoinovej kanal na youtube</system:String>
+    <system:String x:Key="LanguageSettingsFillAllLineLabel">Vyplňovat celou řadu figurkama</system:String>
+    <system:String x:Key="LanguageSettingsFillAllLineHeader">Hrací řada</system:String>
+    
+    <system:String x:Key="LanguageFillAllLineMessage">Není vyplněna celá řada! Doplňte zbytek řady a opakujte vyhodnocení.</system:String>
+    
+
+
+    <system:String x:Key="LanguageTooltipUserFigure">Skrýt/Zobrazit figurku</system:String>
+
+    <system:String x:Key="LanguageSoundOn">Zvuk</system:String>    
+    <system:String x:Key="LanguageTooltipEvaluated">Vyhodnotit</system:String>
+
+
+    <system:String x:Key="LanguageStatistics">Statistika</system:String>
+    <system:String x:Key="LanguageStatisticsDate">Datum</system:String>
+    <system:String x:Key="LanguageStatisticsPlayer">Hráč</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfFields">Počet polí</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfColors">Počet barev</system:String>
+    <system:String x:Key="LanguageStatisticsIsRepeatColor">Opakovat barvu</system:String>
+    <system:String x:Key="LanguageStatisticsIsEmptyFigure">Prázdná figurka</system:String>
+    <system:String x:Key="LanguageStatisticsElapsedTime">Čas vyřešení</system:String>
+    <system:String x:Key="LanguageStatisticsNumberOfMoves">Počet tahů</system:String>
+    <system:String x:Key="LanguageStatisticsCodeBroken">Šifra vyřešena</system:String>
+    <system:String x:Key="LanguageStatisticsSolved">Vyřešeno</system:String>
+    <system:String x:Key="LanguageStatisticsIsRepeatColorToolTip">Barva se může opakovat v šifře</system:String>
+    <system:String x:Key="LanguageStatisticsIsEmptyFigureToolTip">V šifře použita prázdná figurka</system:String>
+    <system:String x:Key="LanguageStatisticsSetupGameToolTip">Detail nastavení hry</system:String>
+    <system:String x:Key="LanguageStatisticsTheBestTimeToolTip">Nejlepší čas vyření šifry</system:String>
+    <system:String x:Key="LanguageStatisticsMinMovesToolTip">Nejmenší počet tahů pro vyřešení šifry</system:String>
+
+
+    <system:String x:Key="LanguageWindowPlayerName">Jméno</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameOkToolTip">Uložit jméno</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameDefaultToolTip">Přednastavené jméno - Player</system:String>
+    <system:String x:Key="LanguageWindowPlayerNameSelectPlayerToolTip">Výběr jména</system:String>
+
+</ResourceDictionary>

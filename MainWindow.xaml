@@ -1,0 +1,201 @@
+﻿<Window x:Class="Logik.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Title="{DynamicResource LanguageGameName}" Height="810" Width="400" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Loaded="Window_Loaded" Closed="Window_Closed">
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FF878787" Offset="1"/>
+                <GradientStop Color="#FF88F356" Offset="0.117"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <!--main grid-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <!--grid on top, help, setting, play, restart, ...-->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="*"></ColumnDefinition>                
+            </Grid.ColumnDefinitions>
+
+            <Grid Grid.Column="0" Margin="10,0,0,0" HorizontalAlignment="Left">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Center">
+                    <TextBlock Text="{DynamicResource LanguageSoundOn}" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Stretch" Margin="5"></TextBlock>
+                    <CheckBox x:Name="chbSoundOnOf"  VerticalAlignment="Center" HorizontalAlignment="Center" IsChecked="True" Checked="chbSoundOnOf_Checked" Unchecked="chbSoundOnOf_Unchecked"></CheckBox>
+                </StackPanel>
+                
+                <!--Button play-->
+                <Button x:Name="btnPlay" Grid.Column="1" Margin="5,0,0,0" Height="50" Width="50" Click="btnPlay_Click">
+                    <!--<StackPanel Orientation="Horizontal">-->
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Grid>
+                                <Ellipse Fill="YellowGreen" StrokeThickness="1" Stroke="Black">
+                                </Ellipse>
+                                <TextBlock x:Name="tbNewGame" Text="{DynamicResource LanguageNewGame}" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                        </ControlTemplate>            
+                    </Button.Template>
+
+                    <!--<TextBlock x:Name="tbNewGame" Text="{DynamicResource LanguageNewGame}" TextWrapping="Wrap"></TextBlock>-->
+                    <!--</StackPanel>-->
+                </Button>
+
+                <!--Button play-->
+                <Button x:Name="btnRestart" Grid.Column="2" Margin="5,0,0,0" Height="50" Width="50" Click="btnRestart_Click">
+                    <!--<StackPanel Orientation="Horizontal">-->
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Grid>
+                                <Ellipse Fill="Orange" StrokeThickness="1" Stroke="Black">
+                                </Ellipse>
+                                <TextBlock x:Name="tbRestart" Text="{DynamicResource LanguageRestartGame}" TextWrapping="Wrap" VerticalAlignment="Center" HorizontalAlignment="Center"></TextBlock>
+                            </Grid>
+                        </ControlTemplate>
+                    </Button.Template>
+
+                    <!--<TextBlock x:Name="tbNewGame" Text="{DynamicResource LanguageNewGame}" TextWrapping="Wrap"></TextBlock>-->
+                    <!--</StackPanel>-->
+                </Button>
+
+            </Grid>
+
+            <!--info, statistics, settings-->
+            <StackPanel Grid.Column="2" Orientation="Horizontal" Margin="0,0,10,0" HorizontalAlignment="Right">
+                <!--info-->
+                <Button x:Name="btnGuide" Width="50" Height="50" ToolTip="{DynamicResource LanguageGuide}" Click="btnGuide_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\information.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <!--<Image Source="Images\information.png"></Image>-->
+                </Button>                
+                
+                <!--statistics-->
+                <Button x:Name="btnStatistics" Width="50" Height="50" ToolTip="{DynamicResource LanguageStatistics}" Click="btnStatistics_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\statistics.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <!--<Image Source="Images\statistics.png"></Image>-->
+                </Button>
+                
+                <!--settings-->
+                <Button x:Name="btnSettings" Grid.Column="2" Width="50" Height="50" VerticalAlignment="Center" HorizontalAlignment="Center" ToolTip="{DynamicResource LanguageTooltipSettings}" Click="btnSettings_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\settings.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <!--<Image Source="Images\settings.png"></Image>-->
+                </Button>
+            </StackPanel>
+
+
+            <!--<TextBlock Text="LOGIK" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Foreground="GreenYellow" FontWeight="ExtraBold"></TextBlock>-->
+
+        </Grid>
+
+        <!--border-->
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="0.5"></Border>
+
+        <!--game-->
+        <ContentControl x:Name="ccGame" Grid.Row="2" Content="{Binding}" Margin="0.5"></ContentControl>
+
+        <!--border-->
+        <Border Grid.Row="3" BorderBrush="Black" BorderThickness="0.5"></Border>
+
+        <!--language, about-->
+        <Grid Grid.Row="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="100"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            
+            <Label x:Name="labelStatus" Grid.Column="0" Content="Verze" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+
+            <Grid Grid.Column="1" Width="200" VerticalAlignment="Center" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                    <ColumnDefinition Width="30"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <!--cz-->
+                <Button x:Name="BtnLanguageCz" Grid.Column="0" Width="25" Height="25" Click="BtnLanguageCz_Click" Margin="3,0" VerticalAlignment="Top">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\languageCz.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+
+                <!--eng-->
+                <Button x:Name="BtnLanguageEng" Grid.Column="1" Width="25" Height="25" Click="BtnLanguageEng_Click">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\languageEng.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <!--<Image Source="Images\languageEng.png"></Image>-->
+                </Button>
+
+                <!--about app-->
+                <Button x:Name="BtnAboutApp" Grid.Column="2" Width="25" Height="25" Click="BtnAboutApp_Click" ToolTip="{DynamicResource LanguageAboutAppToolTip}">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <Ellipse>
+                                <Ellipse.Fill>
+                                    <ImageBrush ImageSource="Images\AboutApp.png"></ImageBrush>
+                                </Ellipse.Fill>
+                            </Ellipse>
+                        </ControlTemplate>
+                    </Button.Template>
+                    <!--<Image Source="Images\AboutApp.png"></Image>-->
+                </Button>
+            </Grid>
+
+
+        </Grid>
+
+    </Grid>
+</Window>

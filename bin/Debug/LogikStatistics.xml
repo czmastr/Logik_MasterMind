@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Statistics>
+  <PathToXmlStatisticsFile>E:\ProgramyCSharp\Logik\Logik\Logik\bin\Debug\LogikStatistics.xml</PathToXmlStatisticsFile>
+  <Games>
+    <Game>
+      <Date>8.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>8.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:02</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>8.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:02</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>9.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:08</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>9.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>6</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>9.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:04</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>9.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:18</ElapsedTime>
+      <NumberOfMoves>2</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>11.2.2021 0:00:00</Date>
+      <Player>Katka</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>11.2.2021 0:00:00</Date>
+      <Player>Katka</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>True</CodeBroken>
+    </Game>
+    <Game>
+      <Date>11.2.2021 0:00:00</Date>
+      <Player>Jirka</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>11.2.2021 0:00:00</Date>
+      <Player>Jirka</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:04</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Kamil</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:04</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Martin</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:04</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Jana</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:03</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>12.2.2021 0:00:00</Date>
+      <Player>Marian</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:02</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>18.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:24</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>18.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:19</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+    <Game>
+      <Date>18.2.2021 0:00:00</Date>
+      <Player>Player</Player>
+      <NumberOfFields>5</NumberOfFields>
+      <NumberOfColors>8</NumberOfColors>
+      <IsRepeatColor>False</IsRepeatColor>
+      <IsEmptyFigure>False</IsEmptyFigure>
+      <ElapsedTime>1.1.0001 0:00:32</ElapsedTime>
+      <NumberOfMoves>10</NumberOfMoves>
+      <CodeBroken>False</CodeBroken>
+    </Game>
+  </Games>
+</Statistics>

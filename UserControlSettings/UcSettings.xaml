@@ -1,0 +1,85 @@
+﻿<UserControl x:Class="Logik.UserControlSettings.UcSettings"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Logik.UserControlSettings"
+             mc:Ignorable="d">
+    <!--d:DesignHeight="450" d:DesignWidth="800">-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="{DynamicResource LanguageSettings}" FontSize="30" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+
+        <StackPanel Grid.Row="1" Margin="10">
+
+            <!--FIELDS-->
+            <GroupBox Header="{DynamicResource LanguageSettingsFillAllLineHeader}" Margin="5">
+                <StackPanel Orientation="Horizontal">
+                    <Label Content="{DynamicResource LanguageSettingsFillAllLineLabel}"></Label>
+                    <CheckBox x:Name="chbSettingsFillAllLine" Margin="5" Checked="chbSettingsFillAllLine_Checked" Unchecked="chbSettingsFillAllLine_Unchecked" VerticalAlignment="Center"></CheckBox>
+                </StackPanel> 
+            </GroupBox>
+
+            <!--FIELDS-->
+            <GroupBox Header="{DynamicResource LanguageSettingsFields}" Margin="5">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton x:Name="rbSettingsField3" Content="3" Margin="5,0,2.5,0" Checked="rbSettingsField_Checked"></RadioButton>
+                    <RadioButton x:Name="rbSettingsField4" Content="4" Margin="5,0,2.5,0" Checked="rbSettingsField_Checked"></RadioButton>
+                    <RadioButton x:Name="rbSettingsField5" Content="5" Margin="5,0,2.5,0" Checked="rbSettingsField_Checked"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+
+            <!--COLORS-->
+            <GroupBox Header="{DynamicResource LanguageSettingsColors}" Margin="5">
+                <StackPanel Orientation="Horizontal">
+                    <RadioButton x:Name="rbSettingsColors5" Content="5" Margin="5,0,2.5,0" Checked="rbSettingsColors_Checked"></RadioButton>
+                    <RadioButton x:Name="rbSettingsColors6" Content="6" Margin="5,0,2.5,0" Checked="rbSettingsColors_Checked"></RadioButton>
+                    <RadioButton x:Name="rbSettingsColors7" Content="7" Margin="5,0,2.5,0" Checked="rbSettingsColors_Checked"></RadioButton>
+                    <RadioButton x:Name="rbSettingsColors8" Content="8" Margin="5,0,2.5,0" Checked="rbSettingsColors_Checked"></RadioButton>
+                </StackPanel>
+            </GroupBox>
+
+            <!--ANOTHER - REPEATING, EMPTY FIGURE--> 
+            <GroupBox Header="{DynamicResource LanguageSettingsAnother}" Margin="5">
+                <StackPanel Orientation="Vertical">
+                    <StackPanel Orientation="Horizontal">
+                        <CheckBox x:Name="chbSettingRepeatingColor" Content="{DynamicResource LanguageSettingsRepeatingColor}" Margin="5" Checked="chbSettingRepeatingColor_Checked" Unchecked="chbSettingRepeatingColor_Unchecked"></CheckBox>
+                        <CheckBox x:Name="chbSettingsEmptyFigure" Content="{DynamicResource LanguageSettingsEmptyFigure}" Margin="5" Checked="chbSettingsEmptyFigure_Checked" Unchecked="chbSettingsEmptyFigure_Unchecked"></CheckBox>
+                    </StackPanel>
+                    <CheckBox x:Name="chbCryptoMode" Content="{DynamicResource LanguageSettingsCryptoMode}" ToolTip="{DynamicResource LanguageSettingsCryptoModeTooltip}" Margin="5" Checked="chbCryptoMode_Checked" Unchecked="chbCryptoMode_Unchecked"></CheckBox>
+
+                    <StackPanel x:Name="spAboutCrypto" Visibility="Collapsed" Margin="2">
+                        <TextBlock Text="{DynamicResource LanguageSettingsCryptoInfo}" FontSize="15" Foreground="Black" TextWrapping="Wrap"></TextBlock>
+                        <TextBlock TextWrapping="Wrap"><Hyperlink RequestNavigate="Hyperlink_RequestNavigate" NavigateUri="https://youtube.com/playlist?list=PLiD1OrtvRy70RQ8k5HH0E3vHQPpEIJJhZ">Bitcoinovej kanal</Hyperlink></TextBlock>
+                    </StackPanel>
+
+                </StackPanel>
+
+            </GroupBox>
+
+            <GroupBox Header="{DynamicResource LanguageSettingsPathToFileStatisticsHeader}" Margin="5">
+                <StackPanel Orientation="Vertical" Margin="1">
+                    <TextBlock Text="{DynamicResource LanguageSettingsPathFileStatisticsInfo}" TextWrapping="Wrap"></TextBlock>
+                    <Grid Margin="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="30"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="{DynamicResource LanguageSettingsPathToFileStatisticsLabel}" Grid.Column="0" Margin="1" VerticalAlignment="Center" HorizontalAlignment="Left"></Label>
+                        <TextBox x:Name="tbSettingsPathToStatistics" Grid.Column="1" VerticalAlignment="Center" Margin="1"></TextBox>
+                        <Button x:Name="btnSettingsSavePathToStatistics" Content="..." Width="20" Height="20" Grid.Column="2" VerticalAlignment="Center" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" HorizontalAlignment="Center" Margin="1" Click="btnSettingsSavePathToStatistics_Click"></Button>
+                    </Grid>
+                </StackPanel>
+            </GroupBox>
+
+            <Button x:Name="btnSettingsBack" Content="{DynamicResource LanguageButtonBack}" Click="btnSettingsBack_Click" Style="{DynamicResource btnBack}"></Button>
+
+        </StackPanel>
+    </Grid>
+</UserControl>
